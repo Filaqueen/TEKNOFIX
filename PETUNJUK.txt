@@ -1,0 +1,20 @@
+TEKNOFIX - VERSI KOREKSI
+
+CARA MEMASANG
+1. Ekstrak ZIP ini.
+2. Salin semua file di dalam folder TEKNOFIX_KOREKSI ke C:\xampp\htdocs\TEKNOFIX\.
+   Pastikan file berada langsung di folder TEKNOFIX, bukan folder bertingkat.
+3. Di VS Code pilih File > Save All.
+4. Pastikan Apache aktif di XAMPP.
+5. Buka http://localhost/TEKNOFIX/
+
+YANG DIPERBAIKI
+- Kartu perangkat di perangkat.php sekarang mengarah ke keluhan.php saat diklik.
+- Data perangkat, keluhan, tanggal, alamat, teknisi, harga, metode, rating, dan ulasan diteruskan sampai halaman riwayat.
+- Nama file aset diseragamkan menjadi style.css dan script.js.
+
+BATASAN YANG MASIH ADA
+- Login/registrasi masih simulasi dan belum memakai database.
+- Pembayaran hanya simulasi, bukan transaksi sungguhan.
+- Riwayat masih diteruskan melalui URL dan belum tersimpan permanen di MySQL. Untuk penyimpanan permanen perlu dibuat koneksi database dan tabel.
+- Data teknisi dan harga adalah contoh prototipe, bukan data layanan terverifikasi.
